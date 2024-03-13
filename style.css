@@ -53,10 +53,15 @@ body{
     padding: 20px 80px;
     background-color: #e3e6f3;    
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-    width: 100%;
+    width: 100vw;
     position: sticky;
     top: 0;
     left: 0;
+}
+@media (max-width: 990px) {
+    .mobile-none {
+        display: none;
+    }
 }
 #header div{
     display: flex;
@@ -134,8 +139,8 @@ body{
 #hero{
     background-image: url("img/welding-shop-main.jpg");
     height: 90vh;
-    width:auto;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     /* background-position: top 25% right 0; */
     padding: 0 80px;
     display: flex;
