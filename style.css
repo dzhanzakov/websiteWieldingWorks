@@ -58,11 +58,6 @@ body{
     top: 0;
     left: 0;
 }
-@media (max-width: 990px) {
-    .mobile-none {
-        display: none;
-    }
-}
 #header div{
     display: flex;
     align-items: center;
@@ -133,6 +128,10 @@ body{
     position:absolute;
     bottom: -4px;   
     left: 20px;
+}
+
+.mobile-yes{
+    display: none;
 }
 
 /* Home Page */
@@ -301,4 +300,25 @@ body{
     font-size: 15px;
     font-weight: 700;
     color:#088178;
+}
+
+@media (max-width: 990px) {
+    #header {
+        padding: 10px;
+    }
+    .mobile-none {
+        display: none;
+    }
+    .mobile-yes{
+        display: contents;
+    }
+}
+@media (max-width: 400px) {
+    #header .logo {
+        width: 150px;
+    }
+}
+
+.dropdown-toggle::after {
+    display:none !important;
 }
