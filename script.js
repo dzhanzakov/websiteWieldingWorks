@@ -35,21 +35,27 @@ function swapClasses() {
     var firstDiv = document.getElementById('mainLi');
     var secondDiv = document.getElementById('worksLi');
 
+    var firstDivM = document.getElementById('mainLi-mobile');
+    var secondDivM = document.getElementById('worksLi-mobile');
+
     var hero = document.getElementById('hero');
     var product1 = document.getElementById('product1');
+    var product1M = document.getElementById('textInProduct');
 
     if (isInViewport(product1)) {
         firstDiv.classList.remove('active');
         secondDiv.classList.add('active');
+        firstDivM.classList.remove('active');
+        secondDivM.classList.add('active');
         console.log("second");
     } else if (isInViewport(hero)) {
         secondDiv.classList.remove('active');
         firstDiv.classList.add('active');
+        secondDivM.classList.remove('active');
+        firstDivM.classList.add('active');
         console.log("first");
     }
 }   
 
 // Listen for scroll events
 window.addEventListener('scroll', swapClasses);
-
-on
