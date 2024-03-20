@@ -1,1 +1,1 @@
-https://htmlpreview.github.io/?https://github.com/dzhanzakov/websiteWieldingWorks/blob/main/index.html
+https://raw.githack.com/dzhanzakov/websiteWieldingWorks/main/index.html
