@@ -16,7 +16,7 @@
       </div>
       <div>
         <ui id="navbar">
-          <li class="mobile-none"><a id="mainLi"  class="active" onclick="scrollToLabel('hero')">Главный</a></li>
+          <li class="mobile-none"><a id="mainLi"  class="active" href="#">Главный</a></li>
           <li  class="mobile-none"><a id="worksLi" onclick="scrollToLabel('product1')">Примеры Работ</a></li>
           <!-- <li class="mobile-none"><a href="about.html">О компании</a></li> -->
           <li class="mobile-yes">
@@ -101,10 +101,48 @@
           <div class="pro">
             <img src="img/work8.jpg" alt="work4">
           </div>
-
         </div>
-      
     </section>
+    <div id="mobile-product1" class="carousel slide" data-bs-ride="carousel">
+      <div class="textInProduct">
+        <h2>Примеры Работ</h2>
+        <p></p>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/work1.jpg" alt="work1">
+        </div> 
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/work2.jpg" alt="work2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work3.jpg" alt="work3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work4.jpg" alt="work3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work5.jpg" alt="work4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work6.jpg" alt="work4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work7.jpg" alt="work4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/work8.jpg" alt="work4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mobile-product1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mobile-product1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> 
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="script.js"></script>
